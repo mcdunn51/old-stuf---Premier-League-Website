@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="cssbootstrap.css">    
+
+    </head>
+    <body> 
+        <div class="container-fluid">
+            <div class="row">
+                <img class="col-md-9 col-xs-12" id="main-header" img src="Premier-League-Logo-2016.jpg" alt="Premier-League-Logo">
+
+                <div class="col-md-3 col-xs-8">
+                    <script>
+                        (function() {
+                            var cx = '011292418058614495321:jpki_zykptg';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="nav-bar">  
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="premier%20league.html">Home</a></li>
+                        <li><a href="News.html">News</a></li>
+                        <li><a href="teams.html">Teams</a></li> 
+                        <li><a href="Fixtures1.html">Fixtures</a></li> 
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">        
+
+                    <h2>Headlines</h2>
+
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="news%20image%201.jpg" style="width:100%">
+                            <div class="text">Southampton condem West Ham to a fourth successive Premier League defeat</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="Jose-Mourinho2.jpg" style="width:100%">
+                            <div class="text">Mourinho: 'I never sold Juan Mata. I need him at Man Utd more than I did at Chelsea'</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="news%20image%203.jpg" style="width:100%">
+                            <div class="text">Pogba scores his first goal for Manchester United</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="new%20image%204.jpg" style="width:100%">
+                            <div class="text">Arsenal dismantle Chelsea and secure a fourth successive Premier League win</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+
+                    <div id="video-container">   
+                        <h4>Videos</h4>
+
+                        <div class="col-md-6">
+                            <video id="video-one" controls>
+                                <source src="Liverpool%20vs%20Hull%20City%205-1%20Jurgen%20Klopp%20Post%20Match%20Interview%20Premier%20League%202016.mp4" type="video/mp4">
+                            </video>
+
+                            <video id="video-two" controls>
+                                <source src="Liverpool%20vs%20Hull%20City%205-1%20Jurgen%20Klopp%20Post%20Match%20Interview%20Premier%20League%202016.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                        <div class="col-md-6">    
+                            <video id="video-three" controls>
+                                <source src="Liverpool%20vs%20Hull%20City%205-1%20Jurgen%20Klopp%20Post%20Match%20Interview%20Premier%20League%202016.mp4" type="video/mp4">
+                            </video>
+
+                            <video id="video-four" controls>
+                                <source src="Liverpool%20vs%20Hull%20City%205-1%20Jurgen%20Klopp%20Post%20Match%20Interview%20Premier%20League%202016.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <table class="table" id="league-table" style="width:100%">
+                        <thead>
+                            <th id="league-table-header" colspan="5">League Table</th> 
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Team</th>
+                                <th>P</th> 
+                                <th>GD</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>    
+                            <tr>
+                                <td>1</td>
+                                <td>Man City</td> 
+                                <td>6</td>
+                                <td>13</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Tottenham</td> 
+                                <td>6</td>
+                                <td>7</td>
+                                <td>14</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Arsenal</td> 
+                                <td>6</td>
+                                <td>8</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Liverpool</td> 
+                                <td>6</td>
+                                <td>7</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Everton</td> 
+                                <td>6</td>
+                                <td>6</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Man Utd</td> 
+                                <td>6</td>
+                                <td>5</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Crystal Palace</td> 
+                                <td>6</td>
+                                <td>3</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Chealsea</td> 
+                                <td>6</td>
+                                <td>1</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Southampton</td> 
+                                <td>6</td>
+                                <td>1</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>West Brom</td> 
+                                <td>6</td>
+                                <td>1</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Watford</td> 
+                                <td>5</td>
+                                <td>1</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Leicester</td> 
+                                <td>6</td>
+                                <td>-3</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>Hull</td> 
+                                <td>6</td>
+                                <td>-5</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Bournemouth</td> 
+                                <td>6</td>
+                                <td>-5</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Middlesbrough</td> 
+                                <td>6</td>
+                                <td>-3</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>Swansea</td> 
+                                <td>6</td>
+                                <td>-5</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>Burnley</td> 
+                                <td>5</td>
+                                <td>-5</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>West Ham</td> 
+                                <td>6</td>
+                                <td>-9</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>Stoke</td> 
+                                <td>6</td>
+                                <td>-11</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>Sunderland</td> 
+                                <td>6</td>
+                                <td>-7</td>
+                                <td>1</td>
+                            </tr>
+                    </table>
+
+                    <a class="twitter-timeline" data-width="100%" data-height="400" href="https://twitter.com/premierleague">Tweets by premierleague</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 col-md-offset-0 col-xs-12">
+                    <iframe class="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+
+                <div class="col-md-7">
+                    <h5>Official Sponsors</h5>
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-2 col-xs-5 col-xs-offset-1">
+                            <a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640">
+                                <img class="barclayslogo" img src="barclayslogo.jpeg" alt="Barclays logo" width="100%">
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 col-xs-5">    
+                            <a href="https://www.easports.com/">
+                                <img class="easports" img src="ea%20sports.jpg" alt="EA sports Logo" width="90%">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">    
+                        <div class="col-md-3 col-xs-5 col-xs-offset-1">    
+                            <a href="https://www.carling.com/check">
+                                <img class="carling" img src="Carling_logo_onwhite.jpg" alt="Carling Logo" width="100%">
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 col-xs-5">
+                            <a href="http://www.nike.com/gb/en_gb/?cp=euns_kw_txt!g!c!BR!e!nike!113828938494">
+                                <img class="nike" img src="nike.jpg" alt="Nike Logo" width="100%">
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-3 col-xs-5">   
+                            <a href="http://www.tagheuer.co.uk/">
+                                <img class="tagheur" img src="tagheur.jpg" alt="TAGheur" width="100%">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="address-conatiner">
+                        <p>Address: The Premier League, 30 Gloucester Place, London, W1U</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="premierleague.js"></script>
+    </body>
+</html>

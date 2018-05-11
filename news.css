@@ -1,0 +1,77 @@
+h1 {
+margin-top: 20px;
+margin-left:25px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 45px;
+font-family: Verdana, Geneva, sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+display:block;
+}
+
+#nav-bar {margin-top: 17px;
+    margin-left:10px;
+    margin-right:10px;
+margin-bottom: 0px;}
+    
+h2 {margin-top: 0px;
+margin-bottom: 15px;
+margin-left:25px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 27px;
+font-family: Verdana, Geneva, sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+display:block;
+}
+
+#charlie-austin {
+    float: left;
+    margin-right: 10px;
+}
+
+h3 {margin-top: 0px;
+margin-bottom: 15px;
+margin-left:25px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 27px;
+font-family: Verdana, Geneva, sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+display:block;
+}
+
+#jose-mourinho {margin-bottom: 10px;}
+
+h4 {margin-top: 0px;
+margin-bottom: 15px;
+margin-left:25px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 27px;
+font-family: Verdana, Geneva, sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+display:block;
+}
+
+#pogba-text: {padding-left: 0px;}
+
+#pogba-img {margin-bottom: 10px;}
+
+h5 {margin-top: 0px;
+margin-bottom: 15px;
+margin-left:25px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 27px;
+font-family: Verdana, Geneva, sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+display:block;
+}
+
+.justify-text {text-align: justify;}
